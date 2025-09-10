@@ -1,0 +1,218 @@
+.hero {
+  background: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  line-height: 1.1;
+  color: #000;
+  letter-spacing: -1px
+}
+
+
+
+.icon-btn {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn:hover {
+  background: #f5f5f5;
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+  color: #000;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}*/
+
+.icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-btn:hover {
+    background: #f5f5f5;
+  }
+
+  .icon-btn svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1.5;
+    color: black;
+  }
+
+
+  @media (max-width: 768px) {
+    .nav-center {
+      position: static;
+      transform: none;
+      gap: 20px;
+    }
+
+    .hero-title {
+      font-size: 48px;
+    }
+
+    .products-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+
+  }
+
+
+  .cart-sidebar {
+    width: 100%;
+    right: -100%;
+  }
+
+
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: #c41e3a !important;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .icon-btn {
+    position: relative;
+    /* Esto asegura que .cart-count se posicione bien */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem;
+  }
+
+  .remove-item {
+    background: none;
+    border: none;
+    color: #dc2626;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 4px;
+  }
+
+  .modal-prev,
+  .modal-next {
+    position: static;
+    margin: 20px 10px 0;
+  }
+
+
+.filter-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filters {
+  padding: 40px 0;
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 10px 25px;
+  border: 2px solid #ddd;
+  background: white;
+  color: #666;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-superpuesto {
+  display: inline-block;
+  margin-top: 200px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-superpuesto:hover {
+  background-color: #dddddd;
+}
+
+
+.icon-btn:hover {
+  background: #f5f5f5;
+}
+
+.icon-btn svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 1.5;
+  color: #000;
+}
