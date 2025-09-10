@@ -1,0 +1,165 @@
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/login/fondoCarrito.jpeg);
+  background-attachment: fixed;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+:root{
+  --text-main:#0c0c0c;
+  --text-muted: #202020; 
+  --border:#333;
+  --btn-bg: rgba(250, 250, 250, 0.8);
+  --btn-hover:#020202;
+  --btn-text-hover: #f8f0f0;
+  --brand-red:#c8102e;
+
+}
+.form-container{
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align:center;
+  margin: 40px auto;
+}
+.h1{
+  font-size: 20px;
+  color:var(--text-muted);
+  margin-bottom: 15px;
+}
+
+.btn-selection{
+  background-color: var(--btn-bg);
+  color: var(--text-main);
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color .15s, ease, color, .15 ease;
+}
+
+.btn-selection:hover {
+  background-color: rgb(245, 233, 233);
+  color: #000;
+}
+
+.form, .iniciar-sesion{
+  display: flex;
+  flex-direction: column;
+  margin-top:15px;
+  text-align: left;
+  gap:20px;
+}
+
+.registrarse{
+  display: none;
+}
+label{
+  font-weight: bold;
+  font-size: 16px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  padding: 10px;
+  border: 1px solid var(--border);
+  font-size: 15px;
+  border-radius: 6px;
+  transition: border-color .2s ease, box-shadow .2 ease;
+  outline: none;
+}
+input[type="text"]:focus-visible,
+input[tyoe="email"]:focus-visible,
+input[type=password]:focus-visible{
+  border-color: var(--brand-red);
+  box-shadow: 0 0 0 3px rgba(200,16,46,.15)
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.password-container > div,
+.password-container .input-wrapper,
+.password-container [id="input-wrapper"] {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.password-container > div input,
+.password-container .input-wrapper input,
+.password-container [id="input-wrapper"] input {
+  flex: 1;
+  padding-right: 36px;
+}
+
+.password-container > div img,
+.password-container .input-wrapper img,
+.password-container [id="input-wrapper"] img,
+.icon-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin: 5px 0 15px 0;
+}
+
+.forgot-password a {
+  font-size: 15px;
+  color: #0d0d0d;
+  text-decoration: none;
+  transition: color .2s ease-in-out;
+}
+
+.forgot-password a:hover {
+  color: var(--brand-red);
+}
+
+.btn-enviar,
+.btn-iniciar-sesion {
+  background-color: var(--btn-bg);
+  color: var(--text-main);
+  padding: 10px 20px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+  border-radius: 6px;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.btn-enviar:hover,
+.btn-iniciar-sesion:hover {
+  background-color: var(--btn-hover);
+  color: var(--btn-text-hover);
+}
+
+.oculto { display: none !important; }
+.activo { display: block !important; }
+.incorrecto { outline: 1px solid red; }
+
+@media (max-width: 480px) {
+  .form-container { width: 100%; padding: 20px; }
+  .btn-selection { width: 100%; }
+  .form, .iniciar-sesion { max-width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
