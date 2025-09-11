@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "/catalogoLoNuevo/producto 1.webp",
+      "/catalogoLoNuevo/producto1.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto1.webp",
+      "/catalogoLoNuevo/producto1.1.webp",
+      "/catalogoLoNuevo/producto1.2.webp",
+      "/catalogoLoNuevo/producto1.3.webp"
+    ],
+    "title": "Jean Straight Semiajustado",
+    "desc": "Corte clásico straight fit, perfecto para el día a día. Confeccionado en denim de alta calidad.",
+    "price": "$179.900",
+    "category": "hombre-jeans",
+    "link": "/producto/1"
+  },
+  {
+    "id": 2,
+    "images": [
+      "/catalogoLoNuevo/producto5.webp",
+      "/catalogoLoNuevo/producto5.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto5.webp",
+      "/catalogoLoNuevo/producto5.1.webp",
+      "/catalogoLoNuevo/producto5.2.webp"
+    ],
+    "title": "Camiseta De Manga Corta Hombre",
+    "desc": "En honor a la inspiración local que nos mueve.",
+    "price": "$49.900",
+    "category": "hombre-t-shirts",
+    "link": "/producto/2"
+  },
+  {
+    "id": 6,
+    "images": [
+      "/catalogoLoNuevo/producto4.webp",
+      "/catalogoLoNuevo/producto4.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto4.webp",
+      "/catalogoLoNuevo/producto4.1.webp",
+      "/catalogoLoNuevo/producto4.2.webp"
+    ],
+    "title": "Chaqueta Tipo Biker Tela Antifluido",
+    "desc": "Chaqueta estilo biker con tecnología antifluido. Diseño moderno y funcional.",
+    "price": "$219.900",
+    "category": "hombre-jackets",
+    "link": "/producto/6"
+  },
+  {
+    "id": 8,
+    "images": [
+      "/catalogoLoNuevo/producto8.webp",
+      "/catalogoLoNuevo/producto8.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto8.webp",
+      "/catalogoLoNuevo/producto8.1.webp",
+      "/catalogoLoNuevo/producto8.2.webp"
+    ],
+    "title": "Buzo Cerrado De Cuello Alto",
+    "desc": "Este es uno de esos básicos que siempre marcan la diferencia.",
+    "price": "$149.900",
+    "category": "hombre-jackets",
+    "link": "/producto/8"
+  },
+  {
+    "id": 10,
+    "images": [
+      "/catalogoLoNuevo/producto3.webp",
+      "/catalogoLoNuevo/producto3.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto3.webp",
+      "/catalogoLoNuevo/producto3.1.webp",
+      "/catalogoLoNuevo/producto3.2.webp"
+    ],
+    "title": "Vestido Estampado En Animal Print",
+    "desc": "Elegante vestido largo con estampado animal print. Perfecto para ocasiones especiales.",
+    "price": "$159.900",
+    "category": "mujer-vestidos",
+    "link": "/producto/10"
+  },
+  {
+    "id": 11,
+    "images": [
+      "/catalogoLoNuevo/producto2.webp",
+      "/catalogoLoNuevo/producto2.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto2.webp",
+      "/catalogoLoNuevo/producto2.1.webp",
+      "/catalogoLoNuevo/producto2.2.webp"
+    ],
+    "title": "Camiseta Oversized Estampada",
+    "desc": "Estilo relajado oversized con estampado exclusivo.",
+    "price": "$109.900",
+    "category": "mujer-t-shirts",
+    "link": "/producto/11"
+  },
+  {
+    "id": 12,
+    "images": [
+      "/catalogoLoNuevo/producto7.webp",
+      "/catalogoLoNuevo/producto7.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto7.webp",
+      "/catalogoLoNuevo/producto7.1.webp",
+      "/catalogoLoNuevo/producto7.2.webp"
+    ],
+    "title": "Chaleco En Dril Pesado Para Mujer",
+    "desc": "Es una prenda que no pasa desapercibida. Con teñido pigmento suma carácter.",
+    "price": "$159.900",
+    "category": "mujer-chalecos",
+    "link": "/producto/12"
+  },
+  {
+    "id": 13,
+    "images": [
+      "/catalogoLoNuevo/producto6.webp",
+      "/catalogoLoNuevo/producto6.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto6.webp",
+      "/catalogoLoNuevo/producto6.1.webp",
+      "/catalogoLoNuevo/producto6.2.webp"
+    ],
+    "title": "Jean Cargo En Black Denim",
+    "desc": "Este jean Cargo fit combina una silueta semiajustada y confeccionado en denim liviano color negro con fijado de color.",
+    "price": "$199.900",
+    "category": "mujer-jeans",
+    "link": "/producto/13"
+  },
+  {
+  "id": 14,
+  "images": [
+    "/catalogoLoNuevo/producto9.webp",
+    "/catalogoLoNuevo/producto9.1.webp"
+  ],
+  "gallery": [
+    "/catalogoLoNuevo/producto9.webp",
+    "/catalogoLoNuevo/producto9.1.webp",
+    "/catalogoLoNuevo/producto9.2.webp"
+  ],
+  "title": "Bermuda En Denim Tono Medio",
+  "desc": "Esta bermuda para hombre de fit regular y tiro medio le da un look auténtico.",
+  "price": "$139.900",
+  "category": "hombre-bermudas",
+  "link": "/producto/14"
+}
+
+]

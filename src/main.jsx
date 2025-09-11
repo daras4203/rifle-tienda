@@ -1,12 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-/* import Home from './pages/Home'
-import Footer from './components/Footer'
-import Header from './components/Header' */
-import Registro from './pages/Registro'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js"; 
+import Hombre from "./pages/Hombre";
+import LoNuevo from "./pages/LoNuevo";
 
-createRoot(document.getElementById('root')).render(
+
+
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Registro/>
-  </StrictMode>,
-)
+    <LoNuevo/>
+  </StrictMode>
+);
