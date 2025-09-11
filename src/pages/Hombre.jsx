@@ -18,7 +18,6 @@ const CatalogoHombre = () => {
 
   return (
     <>
-      <Header />
       <section className="hero">
         <div className="video-container">
           <video autoPlay muted loop playsInline className="background-video">
@@ -54,7 +53,7 @@ const CatalogoHombre = () => {
             {catalogoHombre.map((product) => (
               <div
                 key={product.id}
-                className={`col-md-4 mb-4 producth-card ${product.category}`}
+                className={`col-md-4 mb-4 product-card ${product.category}`}
               >
                 <div
                   id={`carousel-${product.id}`}
@@ -102,7 +101,6 @@ const CatalogoHombre = () => {
           </div>
         </div>
       </section>
-      <Footer/>
     </>
   );
 };
