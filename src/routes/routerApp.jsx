@@ -1,10 +1,26 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
 import Home from "../pages/Home"
+import Registro from "../pages/Registro";
+import LoNuevo from "../pages/LoNuevo";
+import Hombre from "../pages/Hombre";
 
-const routerApp = [
-
+export const routerApp = [
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/registro",
+    element: <Registro />,
+  },
+  {
+    path: "/loNuevo",
+    element: <LoNuevo />,
+  },
+  {
+    path: "/hombre",
+    element: <Hombre />,
+  },
 ];
 
-export default routerApp;
+
 
