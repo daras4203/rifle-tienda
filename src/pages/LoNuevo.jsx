@@ -5,13 +5,13 @@ import Footer from '../components/Footer'
 import "./LoNuevo.css";
 
 const CatalogoLoNuevo = () => {
-  const [filtro, setFiltro] = useState("todo");
+    const [filtro, setFiltro] = useState("todo");
 
-  const catalogoLoNuevo = productos.filter((p) => {
-    if (filtro === "todo") return true;
-    return p.category === filtro;
-  });
-
+    const catalogoFiltrado = productos.filter((p) => {
+        if (filtro === "todo") return true;
+        if (filtro === "hombre") return p.category.startsWith("hombre");
+        if (filtro === "mujer") return p.category.startsWith("mujer");
+    });
   return (
     <>
       <Header />
