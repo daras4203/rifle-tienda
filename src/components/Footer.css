@@ -1,22 +1,22 @@
-.container {
+.hola{
   width: 100%;
-  min-height: 0; 
-  margin-top: 80px;
+  height: 180px;
   display: flex;
+  box-sizing: border-box;
   align-items: center;
   background-color: #0c0c0c;
-  color: white;
-  flex-direction: column; 
+  color: white  ;
 }
-
-.container-footer {
+.hola footer{
+  width: 100%;
+}
+.container-footer{
   box-sizing: border-box;
-  height: 102px; 
+  height: 102px;
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
-
 .enlaces{
   display: flex;
   flex-direction: column;
@@ -52,3 +52,4 @@
   text-align: right;
   padding-right: 10px;
 }
+
