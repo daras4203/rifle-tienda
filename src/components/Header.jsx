@@ -13,10 +13,10 @@ function Header() {
         <Link to="/hombre" className="header-items">
           HOMBRE
         </Link>
-        <Link to="/" className="header-items">
+        <Link to="/mujer" className="header-items">
           MUJER
         </Link>
-        <Link to="/" className="header-items re">
+        <Link to="/rebajas" className="header-items re">
           REBAJAS
         </Link>
       </nav>
