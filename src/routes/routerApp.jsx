@@ -3,6 +3,7 @@ import Registro from "../pages/Registro";
 import LoNuevo from "../pages/LoNuevo";
 import Hombre from "../pages/Hombre";
 
+
 export const routerApp = [
   {
     path: "/",
@@ -20,6 +21,7 @@ export const routerApp = [
     path: "/hombre",
     element: <Hombre />,
   },
+  
 ];
 
 
