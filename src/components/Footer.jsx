@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="container">
+    <div className="hola">
       <footer>
         <div className="container-footer">
           <div className="espacio icons">
@@ -58,9 +58,13 @@ function Footer() {
           </div>
           <div className="espacio enlaces">
             <Link to="">Nosotros</Link>
-            <Link to="">Servicio al cliente</Link>
-            <Link to="">Trabaja con nosotros</Link>
-            <Link to="">Encuentra nustra tienda</Link>
+            <Link to="https://api.whatsapp.com/send/?phone=573225183789">
+              Servicio al cliente
+            </Link>
+            <Link to="https://www.magneto365.com/co/empresas/rifle">
+              Trabaja con nosotros
+            </Link>
+            <Link to="">Encuentra nuestra tienda</Link>
           </div>
           <div className="espacio derechos">
             &copy; COMODIN S.A.S., NIT 800.069.933-6, Calle 14 No. 52 A - 372,

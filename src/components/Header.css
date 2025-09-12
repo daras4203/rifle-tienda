@@ -15,6 +15,9 @@
   font-family: Arial, Helvetica, sans-serif;
   line-height:2;
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 900;
 }
   a{
     text-decoration: none;

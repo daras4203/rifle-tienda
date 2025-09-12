@@ -51,7 +51,7 @@ const catalogoMujer = productos.filter((p) => {
   </section>
   <div className="row">
   {/* Producto 1 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card t-shirts">
       <div id="carousel1" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -72,14 +72,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Camiseta Cuello Redondo Estampada Para Mujer</h5>
         <p>Camiseta básica para mujer que dará actitud para el día a día.</p>
-        <div className="product-price">$59.900</div>
+        <div className="product-price">$59.900</div><br /><br />
         <a href="/partials/producto1mujer.html" className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
       </div>
     </div>
   </div>
 
   {/* Producto 2 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card t-shirts">
       <div id="carousel2" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -100,14 +100,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Camiseta Ajustada Con Escote En Espalda Para Mujer</h5>
         <p>Camiseta para mujer de fit ajustado y escote en la espalda.</p>
-        <div className="product-price">$89.900</div>
+        <div className="product-price">$89.900</div><br />
         <a href="/partials/producto2mujer.html" className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
       </div>
     </div>
   </div>
 
   {/* Producto 3 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card t-shirts">
       <div id="carousel3" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -128,14 +128,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Camiseta Con Animal Print Para Mujer</h5>
         <p>Una camiseta para mujer con el toque justo de audacia.</p>
-        <div className="product-price">$49.900</div>
+        <div className="product-price">$49.900</div><br /><br />
         <a href="/partials/producto3mujer.html" className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</a>
       </div>
     </div>
   </div>
 
   {/* Producto 4 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card jackets">
       <div id="carousel4" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -156,14 +156,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Vestido Largo Efecto Tejido Para Mujer</h5>
         <p>Vestido largo tejido con diseño que combina sofisticación y estilo.</p>
-        <div className="product-price">$169.900</div>
+        <div className="product-price">$169.900</div><br /><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>
   </div>
 
   {/* Producto 5 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card jackets">
       <div id="carousel5" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -184,14 +184,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Vestido Corto Con Escote Para Mujer</h5>
         <p>Diseño corto con escote en frente y escote en espalda con tira para anudar.</p>
-        <div className="product-price">$129.900</div>
+        <div className="product-price">$129.900</div><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>
   </div>
 
   {/* Producto 6 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card shirts">
       <div id="carousel6" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -212,14 +212,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Camisa Efecto Cuero Con Bolsillos En Frente Para Mujer</h5>
         <p>Camisa de efecto cuero para transformar el estilo personal.</p>
-        <div className="product-price">$179.900</div>
+        <div className="product-price">$179.900</div><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>
   </div>
 
   {/* Producto 7 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card shirts">
       <div id="carousel7" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -240,14 +240,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Camisa Clásica Para Mujer</h5>
         <p>Diseño clásico de regular fit con cuello de solapa y manga larga.</p>
-        <div className="product-price">$129.900</div>
+        <div className="product-price">$129.900</div><br /><br /><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>
   </div>
 
   {/* Producto 8 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card jeans">
       <div id="carousel8" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -268,14 +268,14 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Jean Wide Leg Tono Claro Con Cinturón Para Mujer</h5>
         <p>Estos jeans que se ajustan suavemente en la cadera.</p>
-        <div className="product-price">$199.900</div>
+        <div className="product-price">$199.900</div><br /><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>
   </div>
 
   {/* Producto 9 */}
-  <div className="col-md-4">
+  <div className="col-md-3">
     <div className="producth-card jeans">
       <div id="carousel9" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
@@ -296,7 +296,7 @@ const catalogoMujer = productos.filter((p) => {
       <div className="product-info">
         <h5>Pantalón Straight En Dril Pesado Para Mujer</h5>
         <p>Pantalón para mujer de fit recto y tiro alto moderno.</p>
-        <div className="product-price">$189.900</div>
+        <div className="product-price">$189.900</div><br /><br />
         <button className="btn btn-dark mt-2 w-100">AGREGAR A LA BOLSA</button>
       </div>
     </div>

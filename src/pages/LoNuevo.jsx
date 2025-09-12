@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import productos from "../data/productos.json";
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 import "./LoNuevo.css";
 
 const LoNuevo = () => {
@@ -38,9 +38,9 @@ const LoNuevo = () => {
               </div>
             </div>
           </section>
-           </section>
-          <div className="filters">
-            <div className="filter-buttons">
+        </section>
+        <div className="filters">
+          <div className="filter-buttons">
             <button className="filter-btn" onClick={() => setFiltro("todo")}>
               VER TODO
             </button>
@@ -50,15 +50,16 @@ const LoNuevo = () => {
             <button className="filter-btn" onClick={() => setFiltro("mujer")}>
               MUJER
             </button>
-            </div>
           </div>
+        </div>
         <div className="catalogo">
           <div className="products-grid">
             {catalogoFiltrado.map((product) => (
               <div
                 key={product.id}
-                className={` product-card ${product.category}`}>
-                <div className="product-badge">NUEVO</div>
+                className={` product-card ${product.category}`}
+              >
+                <div className="producth-badge">NUEVO</div>
                 <div
                   id={`carousel-${product.id}`}
                   className="carousel slide"
