@@ -4,14 +4,14 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import "./LoNuevo.css";
 
-const CatalogoLoNuevo = () => {
-    const [filtro, setFiltro] = useState("todo");
+const LoNuevo = () => {
+  const [filtro, setFiltro] = useState("todo");
 
-    const catalogoFiltrado = productos.filter((p) => {
-        if (filtro === "todo") return true;
-        if (filtro === "hombre") return p.category.startsWith("hombre");
-        if (filtro === "mujer") return p.category.startsWith("mujer");
-    });
+  const catalogoFiltrado = productos.filter((p) => {
+    if (filtro === "todo") return true;
+    if (filtro === "hombre") return p.category.startsWith("hombre");
+    if (filtro === "mujer") return p.category.startsWith("mujer");
+  });
   return (
     <>
       <Header />
@@ -38,26 +38,27 @@ const CatalogoLoNuevo = () => {
               </div>
             </div>
           </section>
-
-          <div className="filter-buttons text-center my-4">
+           </section>
+          <div className="filters">
+            <div className="filter-buttons">
             <button className="filter-btn" onClick={() => setFiltro("todo")}>
               VER TODO
             </button>
-            <button className="filter-btn" onClick={() => setFiltro("men")}>
+            <button className="filter-btn" onClick={() => setFiltro("hombre")}>
               HOMBRE
             </button>
-            <button className="filter-btn" onClick={() => setFiltro("women")}>
+            <button className="filter-btn" onClick={() => setFiltro("mujer")}>
               MUJER
             </button>
+            </div>
           </div>
-        </section>
-        <div className="">
-          <div className="row">
-            {catalogoLoNuevo.map((product) => (
+        <div className="catalogo">
+          <div className="products-grid">
+            {catalogoFiltrado.map((product) => (
               <div
                 key={product.id}
-                className={`col-md-4 mb-4 product-card ${product.category}`}
-              >
+                className={` product-card ${product.category}`}>
+                <div className="product-badge">NUEVO</div>
                 <div
                   id={`carousel-${product.id}`}
                   className="carousel slide"
@@ -113,4 +114,4 @@ const CatalogoLoNuevo = () => {
   );
 };
 
-export default CatalogoLoNuevo;
+export default LoNuevo;

@@ -9,7 +9,7 @@
       "/catalogoLoNuevo/producto1.3.webp"
     ],
     "title": "Jean Straight Semiajustado",
-    "desc": "Corte clásico straight fit, perfecto para el día a día. Confeccionado en denim de alta calidad.",
+    "desc": "Corte clásico straight fit, perfecto para el día a día. Confeccionado en denim.",
     "price": "$179.900",
     "category": "hombre-jeans",
     "link": "/producto/1"
@@ -25,7 +25,7 @@
       "/catalogoLoNuevo/producto5.1.webp",
       "/catalogoLoNuevo/producto5.2.webp"
     ],
-    "title": "Camiseta De Manga Corta Hombre",
+    "title": "Camiseta De Manga Corta",
     "desc": "En honor a la inspiración local que nos mueve.",
     "price": "$49.900",
     "category": "hombre-t-shirts",
@@ -37,7 +37,7 @@
       "/catalogoHombre/producto3.webp",
       "/catalogoHombre/producto3.1.webp"
     ],
-    "title": "Camisa Estampada De Botones",
+    "title": "Camisa Estampada",
     "desc": "Camisa para hombre. Tipo resort, de cuello clásico y manga corta.",
     "price": "$119.900",
     "link": "/partials/producto3.html",
@@ -49,7 +49,7 @@
       "/catalogoHombre/producto4.webp",
       "/catalogoHombre/producto4.1.webp"
     ],
-    "title": "Jean Super Slim Con Rotos Y Efecto Salpicado",
+    "title": "Jean Super Slim Con Rotos",
     "desc": "Un jean Super Slim fit para hombre con actitud.",
     "price": "$199.900",
     "link": "/partials/producto4.html",
@@ -79,7 +79,7 @@
       "/catalogoLoNuevo/producto4.2.webp"
     ],
     "title": "Chaqueta Tipo Biker",
-    "desc": "Chaqueta estilo biker con tecnología antifluido. Diseño moderno y funcional.",
+    "desc": "Chaqueta estilo biker con tecnología antifluido.",
     "price": "$219.900",
     "category": "hombre-jackets",
     "link": "/producto/6"
@@ -98,7 +98,7 @@
     "title": "Camisa De Botones",
     "desc": "Camisa para hombre. Diseño cuello camisero y manga corta.",
     "price": "$89.900",
-    "category": "hombre-jackets",
+    "category": "hombre-shirts",
     "link": "/producto/7"
   },
   {
@@ -124,8 +124,8 @@
       "/catalogoHombre/producto9.webp",
       "/catalogoHombre/producto9.1.webp"
     ],
-    "title": "Jean Classic Tipo Cargo Para Hombre",
-    "desc": "Este jean tipo cargo fusiona lo mejor del estilo clásico con un toque utilitario.",
+    "title": "Jean Classic Tipo Cargo Hombre",
+    "desc": "Este jean tipo cargo fusiona lo mejor del estilo clásico.",
     "price": "$199.900",
     "link": "/partials/producto9.html",
     "category": "hombre-jeans"
@@ -193,7 +193,7 @@
       "/catalogoLoNuevo/producto6.2.webp"
     ],
     "title": "Jean Cargo En Black Denim",
-    "desc": "Este jean Cargo fit combina una silueta semiajustada y confeccionado en denim liviano color negro.",
+    "desc": "Este jean Cargo fit combina una silueta semiajustada.",
     "price": "$199.900",
     "category": "mujer-jeans",
     "link": "/producto/13"
@@ -210,7 +210,7 @@
     "/catalogoLoNuevo/producto9.2.webp"
   ],
   "title": "Bermuda En Denim ",
-  "desc": "Esta bermuda para hombre de fit regular y tiro medio le da un look auténtico.",
+  "desc": "Esta bermuda de fit regular y tiro medio le da un look auténtico.",
   "price": "$139.900",
   "category": "hombre-jeans",
   "link": "/producto/14"
