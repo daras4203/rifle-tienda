@@ -2,6 +2,7 @@ import "./Login.css";
 
 function Login() {
   return (
+    <div className="login-background">
     <div className="form-container">
       <h1 className="h1">LA MODA, DEMANDA ESTAR ACTUALIZADO!</h1>
       <div>
@@ -95,6 +96,7 @@ function Login() {
           />
         </form>
       </div>
+    </div>
     </div>
   );
 }

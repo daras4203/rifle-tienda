@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   background-attachment: fixed;
+  
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -26,8 +27,11 @@
   max-width: 500px;
   text-align:center;
   margin: 40px auto;
-  background-image: url(../img/login/fondoCarrito.jpeg);
+  
  
+}
+.login-background{
+background-image: url(../img/login/fondoCarrito.jpeg);
 }
 .h1{
   font-size: 20px;
