@@ -61,6 +61,7 @@ const CatalogoHombre = () => {
             <button className="filter-btn" onClick={() => setFiltro("jackets")}>
               CHAQUETAS Y BUZOS
             </button>
+
           </div>
         </section>
 

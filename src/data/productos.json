@@ -1,10 +1,7 @@
 [
   {
     "id": 1,
-    "images": [
-      "/catalogoLoNuevo/producto 1.webp",
-      "/catalogoLoNuevo/producto1.1.webp"
-    ],
+    "images": ["/catalogoLoNuevo/producto 1.webp","/catalogoLoNuevo/producto1.1.webp"],
     "gallery": [
       "/catalogoLoNuevo/producto1.webp",
       "/catalogoLoNuevo/producto1.1.webp",
@@ -35,6 +32,42 @@
     "link": "/producto/2"
   },
   {
+    "id": 3,
+    "images": [
+      "/catalogoHombre/producto3.webp",
+      "/catalogoHombre/producto3.1.webp"
+    ],
+    "title": "Camisa Estampada De Botones",
+    "desc": "Camisa para hombre. Tipo resort, de cuello clásico y manga corta.",
+    "price": "$119.900",
+    "link": "/partials/producto3.html",
+    "category": "hombre-shirts"
+  },
+  {
+    "id": 4,
+    "images": [
+      "/catalogoHombre/producto4.webp",
+      "/catalogoHombre/producto4.1.webp"
+    ],
+    "title": "Jean Super Slim Con Rotos Y Efecto Salpicado",
+    "desc": "Un jean Super Slim fit para hombre con actitud.",
+    "price": "$199.900",
+    "link": "/partials/producto4.html",
+    "category": "hombre-jeans"
+  },
+  {
+    "id": 5,
+    "images": [
+      "/catalogoHombre/produto2.webp",
+      "/catalogoHombre/producto2.1.webp"
+    ],
+    "title": "Camiseta De Cuello Redondo",
+    "desc": "Confeccionada en algodón liviano y con su silueta de Comfort fit.",
+    "price": "$49.900",
+    "link": "/partials/producto2.html",
+    "category": "hombre-t-shirts"
+  },
+  {
     "id": 6,
     "images": [
       "/catalogoLoNuevo/producto4.webp",
@@ -45,11 +78,28 @@
       "/catalogoLoNuevo/producto4.1.webp",
       "/catalogoLoNuevo/producto4.2.webp"
     ],
-    "title": "Chaqueta Tipo Biker Tela Antifluido",
+    "title": "Chaqueta Tipo Biker",
     "desc": "Chaqueta estilo biker con tecnología antifluido. Diseño moderno y funcional.",
     "price": "$219.900",
     "category": "hombre-jackets",
     "link": "/producto/6"
+  },
+   {
+    "id": 7,
+    "images": [
+      "/catalogoHombre/producto7.webp",
+      "/catalogoHombre/producto7.1.webp"
+    ],
+    "gallery": [
+      "/catalogoLoNuevo/producto4.webp",
+      "/catalogoLoNuevo/producto4.1.webp",
+      "/catalogoLoNuevo/producto4.2.webp"
+    ],
+    "title": "Camisa De Botones",
+    "desc": "Camisa para hombre. Diseño cuello camisero y manga corta.",
+    "price": "$89.900",
+    "category": "hombre-jackets",
+    "link": "/producto/7"
   },
   {
     "id": 8,
@@ -68,6 +118,18 @@
     "category": "hombre-jackets",
     "link": "/producto/8"
   },
+    {
+    "id": 9,
+    "images": [
+      "/catalogoHombre/producto9.webp",
+      "/catalogoHombre/producto9.1.webp"
+    ],
+    "title": "Jean Classic Tipo Cargo Para Hombre",
+    "desc": "Este jean tipo cargo fusiona lo mejor del estilo clásico con un toque utilitario.",
+    "price": "$199.900",
+    "link": "/partials/producto9.html",
+    "category": "hombre-jeans"
+  },
   {
     "id": 10,
     "images": [
@@ -79,13 +141,13 @@
       "/catalogoLoNuevo/producto3.1.webp",
       "/catalogoLoNuevo/producto3.2.webp"
     ],
-    "title": "Vestido Estampado En Animal Print",
+    "title": "Vestido Estampado ",
     "desc": "Elegante vestido largo con estampado animal print. Perfecto para ocasiones especiales.",
     "price": "$159.900",
     "category": "mujer-vestidos",
     "link": "/producto/10"
   },
-  {
+   {
     "id": 11,
     "images": [
       "/catalogoLoNuevo/producto2.webp",
@@ -113,7 +175,7 @@
       "/catalogoLoNuevo/producto7.1.webp",
       "/catalogoLoNuevo/producto7.2.webp"
     ],
-    "title": "Chaleco En Dril Pesado Para Mujer",
+    "title": "Chaleco En Dril Pesado ",
     "desc": "Es una prenda que no pasa desapercibida. Con teñido pigmento suma carácter.",
     "price": "$159.900",
     "category": "mujer-chalecos",
@@ -131,7 +193,7 @@
       "/catalogoLoNuevo/producto6.2.webp"
     ],
     "title": "Jean Cargo En Black Denim",
-    "desc": "Este jean Cargo fit combina una silueta semiajustada y confeccionado en denim liviano color negro con fijado de color.",
+    "desc": "Este jean Cargo fit combina una silueta semiajustada y confeccionado en denim liviano color negro.",
     "price": "$199.900",
     "category": "mujer-jeans",
     "link": "/producto/13"
@@ -147,11 +209,10 @@
     "/catalogoLoNuevo/producto9.1.webp",
     "/catalogoLoNuevo/producto9.2.webp"
   ],
-  "title": "Bermuda En Denim Tono Medio",
+  "title": "Bermuda En Denim ",
   "desc": "Esta bermuda para hombre de fit regular y tiro medio le da un look auténtico.",
   "price": "$139.900",
-  "category": "hombre-bermudas",
+  "category": "hombre-jeans",
   "link": "/producto/14"
 }
-
 ]
