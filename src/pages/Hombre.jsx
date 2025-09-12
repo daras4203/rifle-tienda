@@ -5,11 +5,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 
-
 const CatalogoHombre = () => {
   const [filtro, setFiltro] = useState("todo"); 
 
-  
   const catalogoHombre = productos.filter((p) => {
     if (!p.category.startsWith("hombre-")) return false; 
     if (filtro === "todo") return true; 
@@ -65,11 +63,12 @@ const CatalogoHombre = () => {
           </div>
         </section>
 
-        <div className="row">
+        <div className="catalogo">
+          <div className="products-grid">
           {catalogoHombre.map((product) => (
             <div
               key={product.id}
-              className={`col-md-4 mb-4 producth-card ${product.category}`}
+              className={`product-card ${product.category}`}
             >
               <div
                 id={`carousel-${product.id}`}
@@ -120,7 +119,7 @@ const CatalogoHombre = () => {
           ))}
         </div>
       </div>
-
+</div>
       <Footer />
     </>
   );

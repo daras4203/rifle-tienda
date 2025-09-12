@@ -15,7 +15,7 @@ export const routerApp = [
   },
   {
     path: "/loNuevo",
-    element: <LoNuevo />,
+    element: <LoNuevo/>,
   },
   {
     path: "/hombre",
